@@ -1,0 +1,614 @@
+[
+  {
+    "area_name": "header",
+    "start_row": 1,
+    "end_row": 6,
+    "parameters": [
+      {
+        "name": "chuquan",
+        "position": "B2",
+        "type": "string"
+      },
+      {
+        "name": "tendonvi",
+        "position": "B3",
+        "type": "string"
+      },
+      {
+        "name": "ngaybaocao",
+        "position": "H4",
+        "type": "string"
+      },
+      {
+        "name": "tungaydenngay",
+        "position": "A6",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "area_name": "bangnguoiheader",
+    "start_row": 7,
+    "end_row": 10
+  },
+  {
+    "area_name": "bangnguoichitiet",
+    "start_row": 11,
+    "end_row": 13,
+    "parameters": [
+      {
+        "name": "sothutu",
+        "position": "A11",
+        "type": "number"
+      },
+      {
+        "name": "donvi_ten",
+        "position": "B11",
+        "type": "string"
+      },
+      {
+        "name": "ng_nc_ts1",
+        "position": "E11",
+        "type": "number"
+      },
+      {
+        "name": "ng_nc_ts2",
+        "position": "F11",
+        "type": "number"
+      },
+      {
+        "name": "ng_nc_sl1",
+        "position": "I11",
+        "type": "number"
+      },
+      {
+        "name": "ng_nc_sl2",
+        "position": "L11",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_ts1",
+        "position": "E12",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_ts2",
+        "position": "F12",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_sl1",
+        "position": "I12",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_sl2",
+        "position": "L12",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_ts1",
+        "position": "E13",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_ts2",
+        "position": "F13",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_sl1",
+        "position": "I13",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_sl2",
+        "position": "L13",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "area_name": "bangnguoickchitiet",
+    "start_row": 14,
+    "end_row": 16,
+    "parameters": [
+      {
+        "name": "sothutu",
+        "position": "B14",
+        "type": "number"
+      },
+      {
+        "name": "tencuakhau",
+        "position": "C14",
+        "type": "string"
+      },
+      {
+        "name": "ng_nc_ts1",
+        "position": "E14",
+        "type": "number"
+      },
+      {
+        "name": "ng_nc_ts2",
+        "position": "F14",
+        "type": "number"
+      },
+      {
+        "name": "ng_nc_sl1",
+        "position": "I14",
+        "type": "number"
+      },
+      {
+        "name": "ng_nc_sl2",
+        "position": "L14",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_ts1",
+        "position": "E15",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_ts2",
+        "position": "F15",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_sl1",
+        "position": "I15",
+        "type": "number"
+      },
+      {
+        "name": "ng_xc_sl2",
+        "position": "L15",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_ts1",
+        "position": "E16",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_ts2",
+        "position": "F16",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_sl1",
+        "position": "I16",
+        "type": "number"
+      },
+      {
+        "name": "ng_qc_sl2",
+        "position": "L16",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "area_name": "bangnguoifooter",
+    "start_row": 17,
+    "end_row": 17
+  },
+  {
+    "area_name": "bangphuongtienheader",
+    "start_row": 18,
+    "end_row": 21
+  },
+  {
+    "area_name": "bangphuongtienchitiet",
+    "start_row": 22,
+    "end_row": 24,
+    "parameters": [
+      {
+        "name": "sothutu",
+        "position": "A22",
+        "type": "number"
+      },
+      {
+        "name": "donvi_ten",
+        "position": "B22",
+        "type": "string"
+      },
+      {
+        "name": "pt_nc_hk_sl",
+        "position": "F22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_hk_skt",
+        "position": "G22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_hk_sxl",
+        "position": "H22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_db_sl",
+        "position": "I22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_db_skt",
+        "position": "J22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_db_sxl",
+        "position": "K22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_dt_sl",
+        "position": "L22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_dt_skt",
+        "position": "M22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_dt_sxl",
+        "position": "N22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_ds_sl",
+        "position": "O22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_ds_skt",
+        "position": "P22",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_ds_sxl",
+        "position": "Q22",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_hk_sl",
+        "position": "F23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_hk_skt",
+        "position": "G23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_hk_sxl",
+        "position": "H23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_db_sl",
+        "position": "I23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_db_skt",
+        "position": "J23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_db_sxl",
+        "position": "K23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_dt_sl",
+        "position": "L23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_dt_skt",
+        "position": "M23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_dt_sxl",
+        "position": "N23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_ds_sl",
+        "position": "O23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_ds_skt",
+        "position": "P23",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_ds_sxl",
+        "position": "Q23",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_hk_sl",
+        "position": "F24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_hk_skt",
+        "position": "G24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_hk_sxl",
+        "position": "H24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_db_sl",
+        "position": "I24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_db_skt",
+        "position": "J24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_db_sxl",
+        "position": "K24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_dt_sl",
+        "position": "L24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_dt_skt",
+        "position": "M24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_dt_sxl",
+        "position": "N24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_ds_sl",
+        "position": "O24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_ds_skt",
+        "position": "P24",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_ds_sxl",
+        "position": "Q24",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "area_name": "bangphuongtienckchitiet",
+    "start_row": 25,
+    "end_row": 27,
+    "parameters": [
+      {
+        "name": "sothutu",
+        "position": "B25",
+        "type": "number"
+      },
+      {
+        "name": "tencuakhau",
+        "position": "C25",
+        "type": "string"
+      },
+      {
+        "name": "pt_nc_hk_sl",
+        "position": "F25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_hk_skt",
+        "position": "G25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_hk_sxl",
+        "position": "H25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_db_sl",
+        "position": "I25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_db_skt",
+        "position": "J25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_db_sxl",
+        "position": "K25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_dt_sl",
+        "position": "L25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_dt_skt",
+        "position": "M25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_dt_sxl",
+        "position": "N25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_ds_sl",
+        "position": "O25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_ds_skt",
+        "position": "P25",
+        "type": "number"
+      },
+      {
+        "name": "pt_nc_ds_sxl",
+        "position": "Q25",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_hk_sl",
+        "position": "F26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_hk_skt",
+        "position": "G26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_hk_sxl",
+        "position": "H26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_db_sl",
+        "position": "I26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_db_skt",
+        "position": "J26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_db_sxl",
+        "position": "K26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_dt_sl",
+        "position": "L26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_dt_skt",
+        "position": "M26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_dt_sxl",
+        "position": "N26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_ds_sl",
+        "position": "O26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_ds_skt",
+        "position": "P26",
+        "type": "number"
+      },
+      {
+        "name": "pt_xc_ds_sxl",
+        "position": "Q26",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_hk_sl",
+        "position": "F27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_hk_skt",
+        "position": "G27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_hk_sxl",
+        "position": "H27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_db_sl",
+        "position": "I27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_db_skt",
+        "position": "J27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_db_sxl",
+        "position": "K27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_dt_sl",
+        "position": "L27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_dt_skt",
+        "position": "M27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_dt_sxl",
+        "position": "N27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_ds_sl",
+        "position": "O27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_ds_skt",
+        "position": "P27",
+        "type": "number"
+      },
+      {
+        "name": "pt_qc_ds_sxl",
+        "position": "Q27",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "area_name": "bangphuongtienfooter",
+    "start_row": 28,
+    "end_row": 28
+  },
+  {
+    "area_name": "footer",
+    "start_row": 42,
+    "end_row": 51,
+    "parameters": [
+      {
+        "name": "hoatdongkhac",
+        "position": "D43",
+        "type": "string"
+      },
+      {
+        "name": "nhanxet",
+        "position": "C44",
+        "type": "string"
+      }
+    ]
+  }
+]
