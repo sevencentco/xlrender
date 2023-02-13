@@ -4,9 +4,9 @@ $ sudo apt install build-essential cmake cxxtest python-pycryptopp libcrypto++-d
 
 ```
 $ cd repo
-$ git clone https://github.com/gonrin/jsoncpp.git
-$ git clone https://github.com/gonrin/pybind11.git
-$ git clone https://github.com/gonrin/xlnt.git
+$ git clone https://github.com/sevencentco/jsoncpp.git
+$ git clone https://github.com/sevencentco/pybind11.git
+$ git clone https://github.com/sevencentco/xlnt.git
 ```
 
 ## Build jsoncpp
